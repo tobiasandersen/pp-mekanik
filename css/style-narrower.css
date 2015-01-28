@@ -1,0 +1,121 @@
+/*
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Basic */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000313}}
+header.major {
+  padding-bottom: 0.25em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000317}}
+header.special {
+  margin-bottom: 4em;
+  padding-top: 5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000321}}
+header.special:before, header.special:after {
+  width: 40%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000326}}
+header.special h2 + p {
+  padding-top: 1.25em;
+}
+
+/* Section/Article */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000334}}
+section {
+  margin: 1em 0 1em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000337}}
+section:first-child {
+  margin-top: 0;
+}
+
+/* Button */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000348}}
+input[type="button"].small,
+input[type="submit"].small,
+input[type="reset"].small,
+.button.small {
+  font-size: 0.8em;
+  min-width: 18em;
+  padding: 0.75em 0;
+}
+
+/* List */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000358}}
+ul.featured-icons {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000361}}
+ul.featured-icons li {
+  display: inline-block;
+  float: none;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000366}}
+ul.featured-icons li .icon {
+  font-size: 4em;
+  width: 1.25em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000374}}
+ul.buttons li {
+  display: block;
+  padding: 1em 0 0 0;
+}
+
+/* Header */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000383}}
+#header {
+  display: none;
+}
+
+/* Banner */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000389}}
+#banner {
+  margin: 0;
+}
+
+/* Wrapper */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\0000396}}
+.wrapper.special-alt {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\00003100}}
+.wrapper.style4 {
+  padding-bottom: 3em;
+}
+
+/* Main */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\00003107}}
+#main {
+  padding: 5em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\00003110}}
+#main .sidebar {
+  border-top: solid 1px rgba(124, 128, 129, 0.1);
+  padding-top: 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\00003114}}
+#main .sidebar section {
+  border-top: 0;
+  padding-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\00003121}}
+body.index #main {
+  padding-top: 4.5em;
+}
+
+/* CTA */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\00003127}}
+#cta {
+  margin: 0;
+}
+
+/* Footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrower\.scss}line{font-family:\00003133}}
+#footer {
+  padding: 4em 1.5em;
+}

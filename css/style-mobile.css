@@ -1,0 +1,185 @@
+/*
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Basic */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000311}}
+body {
+  min-width: 320px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000315}}
+h2 {
+  font-size: 1.25em;
+  letter-spacing: 0.1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000320}}
+h3 {
+  font-size: 1em;
+  letter-spacing: 0.025em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000325}}
+p {
+  text-align: justify;
+}
+
+/* Section/Article */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000331}}
+header {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000334}}
+header.major {
+  padding-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000338}}
+header.special {
+  margin-bottom: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000343}}
+header.special:before, header.special:after {
+  width: 38%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000348}}
+header.special .icon {
+  font-size: 0.75em;
+  top: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000354}}
+header p {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000360}}
+footer.major {
+  padding-top: 0;
+}
+
+/* Icon */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000368}}
+.icon.circle {
+  font-size: 1em;
+}
+
+/* Button */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000375}}
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+  max-width: 20em;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000382}}
+input[type="button"].fit,
+input[type="submit"].fit,
+input[type="reset"].fit,
+.button.fit {
+  width: auto;
+}
+
+/* List */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000391}}
+ul.icons li {
+  padding-left: 0.25em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\0000398}}
+ul.featured-icons li .icon {
+  width: 1.1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003104}}
+ul.buttons {
+  text-align: center;
+}
+
+/* Wrapper */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003111}}
+.wrapper {
+  margin-bottom: 2.5em;
+  padding: 2.25em 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003116}}
+.wrapper.special br {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003121}}
+.wrapper.style1 {
+  padding: 0 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003125}}
+.wrapper.style2 {
+  background-size: 10em;
+  padding: 2.25em 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003130}}
+.wrapper.style4 {
+  background-size: 10em;
+  padding: 1.5em 1.5em 3em 1.5em;
+}
+
+/* Banner */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003138}}
+#banner {
+  background-size: 10em, 10em, auto, cover;
+  padding: 6em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003142}}
+#banner .inner {
+  background: none;
+  display: block;
+  padding: 0 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003148}}
+#banner .inner header h2 {
+  font-size: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003153}}
+#banner .inner p {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003157}}
+#banner .inner br {
+  display: none;
+}
+
+/* Main */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003165}}
+#main {
+  background-size: 10em;
+  padding: 3.5em 0 2.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003170}}
+body.index #main {
+  padding: 2.5em 0 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003174}}
+body.contact #main {
+  padding-bottom: 0;
+}
+
+/* CTA */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003180}}
+#cta {
+  background-size: 10em, 10em, auto, cover;
+  padding: 3em 1.5em;
+}
+
+/* Footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003187}}
+#footer {
+  padding: 3em 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-mobile\.scss}line{font-family:\00003191}}
+#footer .copyright li {
+  display: block;
+  margin: 1em 0 0 0;
+  padding: 0;
+  border: 0;
+}

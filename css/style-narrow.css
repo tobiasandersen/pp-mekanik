@@ -1,0 +1,74 @@
+/*
+	Twenty by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/* Basic */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000311}}
+body, input, select, textarea {
+  font-size: 13pt;
+  letter-spacing: 0.025em;
+  line-height: 1.5em;
+}
+
+/* Section/Article */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000320}}
+header br {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000324}}
+header.major {
+  padding-bottom: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000328}}
+header.special {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000335}}
+footer.major {
+  padding-top: 1.5em;
+}
+
+/* Wrapper */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000342}}
+.wrapper {
+  margin-bottom: 3em;
+  padding: 3em 2.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000347}}
+.wrapper.special br {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000352}}
+.wrapper.style1 {
+  padding: 0 2.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000356}}
+.wrapper.style2 {
+  background-size: 15em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000360}}
+.wrapper.style4 {
+  padding: 2.5em;
+}
+
+/* Banner */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000367}}
+#banner {
+  background-size: 15em, 15em, auto, cover;
+}
+
+/* Main */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000373}}
+#main {
+  background-size: 15em;
+}
+
+/* CTA */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-narrow\.scss}line{font-family:\0000379}}
+#cta {
+  background-size: 15em, 15em, auto, cover;
+  padding: 3em;
+}

@@ -1,0 +1,11 @@
+.About {
+    @extend .wrap;
+    padding-top: 30px;
+    text-align: center;
+
+    h2, p {
+        margin: 0 auto;
+        max-width: 680px;
+    }
+}
+

@@ -1,0 +1,18 @@
+.u-hide {
+    display: none;
+}
+
+.u-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/**
+ * Centers the content inside a parent container width
+ * The parent container must have position: relative.
+ */
+.u-centerVertically {
+    display: table-cell;
+    vertical-align: middle;
+}
