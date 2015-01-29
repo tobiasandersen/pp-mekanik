@@ -517,11 +517,11 @@ input[type="reset"].small,
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\00003482}}
 .wrapper.style2 {
-  background-color: #83d3c9;
+  background-color: white;
   background-position: bottom left, bottom right;
   background-repeat: no-repeat, no-repeat;
   background-size: 25em, 25em;
-  color: white;
+  color: #444;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\00003491}}
 .wrapper.style2 .button:hover {
@@ -695,10 +695,10 @@ body.index #main {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\00003658}}
 .job-type {
-  border-right: 1px solid #7AC5BC;
-  border-bottom: 1px solid #7AC5BC;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
   color: #222;
-  padding: 25px 15px;
+  padding: 30px 15px;
   width: 25%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\00003665}}
@@ -711,9 +711,9 @@ body.index #main {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\00003673}}
 .job-type .icon {
-  fill: #4B817A;
-  height: 30px;
-  width: 30px;
+  fill: #444;
+  height: 35px;
+  width: 35px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\00003679}}
 .job-type h3 {

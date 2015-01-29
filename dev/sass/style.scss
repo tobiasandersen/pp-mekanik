@@ -480,12 +480,12 @@ footer {
 		}
 	
 		&.style2 {
-			background-color: $color-one-bg;
+			background-color: white;
 			//background-image: url('images/light-bl.svg'), url('images/light-br.svg');
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: $pattern-background-size, $pattern-background-size;
-			color: white;
+			color: #444;
 
 			.button {
 				&:hover {
@@ -656,10 +656,10 @@ body.index #main {
 }
 
 .job-type {
-    border-right: 1px solid #7AC5BC;
-    border-bottom: 1px solid #7AC5BC;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
     color: #222;
-    padding: 25px 15px;
+    padding: 30px 15px;
     width: 25%;
 
     &:nth-of-type(4n) {
@@ -671,9 +671,9 @@ body.index #main {
     }
 
     .icon {
-        fill: #4B817A;
-        height: 30px;
-        width: 30px;
+        fill: #444;
+        height: 35px;
+        width: 35px;
     }
 
     h3 {
