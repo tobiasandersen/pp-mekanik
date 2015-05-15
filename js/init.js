@@ -5,6 +5,65 @@
 */
 
 (function($) {
+	$(".page-link").click(function(e) {
+		e.preventDefault();
+		var elementID = $(this).attr("href");
+
+		if (elementID === "#header") {
+			$('html, body').animate({
+				scrollTop: 0
+			}, 500);
+
+		} else {
+			$('html, body').animate({
+				scrollTop: ($(elementID).offset().top - 50)
+			}, 500);
+		}
+
+	});
+
+	$('.js-show-more-images').click(function(e) {
+		var additionalImages = $('.additional-images-container');
+		additionalImages.toggleClass("is-shown");
+
+		if (additionalImages.hasClass('is-shown')) {
+			$(this).html("Dölj bilder igen");
+		} else {
+			$(this).html("Visa fler bilder");
+		}
+	});
+
+	function initialize() {
+		var map = new google.maps.Map(document.getElementById('google-maps'), {
+			center: new google.maps.LatLng(55.720713, 13.365404),
+			zoom: 11,                        // set the zoom level manually
+			scrollwheel: false,
+			disableDoubleClickZoom: true,
+		});
+
+		var request = {
+			placeId: 'ChIJA03UMRORU0YReKGIzVQZ5IM'
+		};
+
+		var infowindow = new google.maps.InfoWindow();
+		var service = new google.maps.places.PlacesService(map);
+
+		service.getDetails(request, function(place, status) {
+			if (status == google.maps.places.PlacesServiceStatus.OK) {
+			var marker = new google.maps.Marker({
+				map: map,
+				position: place.geometry.location
+			});
+			google.maps.event.addListener(marker, 'click', function() {
+				infowindow.setContent(place.name);
+				infowindow.open(map, this);
+			});
+			}
+		});
+	}
+		
+	
+	google.maps.event.addDomListener(window, 'load', initialize);
 
 	skel.init({
 		reset: 'full',
@@ -21,45 +80,6 @@
 				config: {
 					mode: function() { return (skel.vars.isMobile ? 'transform' : 'position'); }
 				},
-				topPanel: {
-					states: '/global/wide/normal/narrow/narrower/mobile',
-					position: 'top-center',
-					side: 'top',
-					hidden: true,
-					animation: 'pushY',
-					width: '100%',
-					height: 275,
-					html: '<nav data-action="navList" data-args="nav"></nav>',
-					clickToHide: true,
-					swipeToHide: false,
-					orientation: 'vertical'
-				},
-				topButton: {
-					states: '/global/wide/normal/narrow/narrower/mobile',
-					position: 'top-center',
-					width: 120,
-					height: 50,
-					html: '<span class="toggle" data-action="toggleLayer" data-args="topPanel"></span>'
-				},
-				sidePanel: {
-					states: '/global/wide/normal/narrow/narrower',
-					position: 'top-left',
-					side: 'left',
-					hidden: true,
-					animation: 'revealX',
-					width: 250,
-					height: '100%',
-					html: '<nav data-action="navList" data-args="nav"></nav>',
-					clickToHide: true,
-					orientation: 'vertical'
-				},
-				sideButton: {
-					states: '/global/wide/normal/narrow/narrower',
-					position: 'top-left',
-					width: 100,
-					height: 60,
-					html: '<span class="toggle" data-action="toggleLayer" data-args="sidePanel"></span>'
-				}
 			}
 		}
 	});
@@ -92,9 +112,6 @@
 				}
 
 			}
-
-		// Scrolly links.
-			$('.scrolly').scrolly(1000, -10);
 
 
 		// Header.

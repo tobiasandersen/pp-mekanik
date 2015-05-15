@@ -1,29 +1,21 @@
 <!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>PP Mekanik AB</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name="description" content="En liten verkstad med stora möjligheter. Vi gör CAD/CAM, konstruktion och NC-fräsning">
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/lightbox.min.js"></script>
-		<script src="js/init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
+
 		<link rel="stylesheet" href="css/lightbox.css" />
+
+		<script src="js/jquery.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
@@ -38,12 +30,12 @@
 
             <nav class="nav">
                 <ul>
-                    <li class="current"><a href="index.html">Start</a></li>
-                    <li><a href="#services">Tjänster</a></li>
-                    <li><a href="#how">Hur vi gör</a></li>
-                    <li><a href="#images">Bilder</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
-					<li><a href="#" class="button special">English</a></li>
+                    <li class="current"><a class="page-link" href="#header">Start</a></li>
+                    <li><a class="page-link" href="#services">Tjänster</a></li>
+                    <li><a class="page-link" href="#how">Hur vi gör</a></li>
+                    <li><a class="page-link" href="#images">Bilder</a></li>
+                    <li><a class="page-link" href="#cta">Kontakt</a></li>
+					<li><a class="page-link" href="#" class="button special">English</a></li>
                 </ul>
             </nav>
 
@@ -53,13 +45,12 @@
 
             <header class="special container">
                 <h2>En liten verkstad <strong>med stora möjligheter</strong>.</h2>
-                <p>
+                <p class="description">
                     Vi tillverkar detaljer efter solidmodeller, skisser eller muntliga beskrivningar.
                     <br>Vi hjälper gärna till att <strong>utveckla era idéer</strong> till färdiga prototyper eller liknande.
                     <br>Enstyck eller flertal spelar ingen roll och <strong>inga uppdrag är för små</strong>.</p>
             </header>
 
-            <!-- One -->
             <section class="wrapper style2 container special" id="services">
                 <div class="row 50%">
 
@@ -100,7 +91,7 @@
 
                             <div class="job-type">
                                 <svg class="icon"><use xlink:href="#shape-wrench"/></svg>
-                                <h3>verktygstillverkning</h3>
+                                <h3>verktygs<wbr>tillverkning</h3>
                             </div>
 
                             <div class="job-type">
@@ -179,137 +170,223 @@
                 </div>
             </section>
 
-				<!-- Three -->
-					<section class="wrapper style3 container special">
+			<section id="images" class="wrapper style3 container special">
 
-						<header class="major">
-							<h2>Bilder i urval</h2>
-						</header>
-
-						<div class="row">
-							<div class="6u 12u(narrower)">
-
-								<section class="image-container">
-                                    <a href="img/full/1.jpeg" 
-                                        data-lightbox="bilder" 
-                                        data-title="Click the right half of the image to move forward.">
-
-                                            <img src="img/1.jpg" alt="">
-                                    </a>
-
-									<header>
-										<h3>En låda med penna</h3>
-									</header>
-
-								</section>
-
-							</div>
-							<div class="6u 12u(narrower)">
-
-								<section class="image-container">
-                                    <a href="img/full/2.jpeg" 
-                                       data-lightbox="bilder" 
-                                       data-title="Or press the right arrow on your keyboard.">
-
-                                        <img src="img/2.jpg" alt="">
-
-                                    </a>
-
-									<header>
-										<h3>Made in Sweden</h3>
-									</header>
-
-								</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="6u 12u(narrower)">
-
-								<section class="image-container">
-                                    <a href="img/full/3.jpeg" 
-                                        data-lightbox="bilder" 
-                                        data-title="Or press the right arrow on your keyboard.">
-
-                                        <img src="img/3.jpg" alt="">
-
-                                    </a>
-									<header>
-										<h3>Något som liknar en skål</h3>
-									</header>
-
-								</section>
-
-							</div>
-							<div class="6u 12u(narrower)">
-
-								<section class="image-container">
-                                    <a href="img/full/4.jpeg" 
-                                        data-lightbox="bilder" 
-                                        data-title="Or press the right arrow on your keyboard.">
-
-                                        <img src="img/4.jpg" alt="">
-
-                                    </a>
-
-									<header>
-										<h3>Ser avancerat ut</h3>
-									</header>
-
-								</section>
-
-							</div>
-
-                            <footer class="images-footer">
-                                    <a href="#" class="button">Visa fler bilder</a>
-                            </footer>
-
-						</div>
-
-					</section>
-
-			</article>
-
-		<!-- CTA -->
-			<section id="cta">
-
-				<header>
-					<h2>Kontakta oss</h2>
-                    <p>Hör gärna av dig om du har frågor, funderingar eller vill jobba ihop.</p>
+				<header class="major">
+					<h2>Bilder i urval</h2>
 				</header>
-				<footer class="contact-container">
-					<ul class="contact-list">
-                        <li class="list-header">Telefon</li>
-                        <li>046 - 514 90</li>
-                        <li class="list-header">Mobil</li>
-                        <li>0705 - 744 514</li>
-                        <li class="list-header">E-post</li>
-                        <li>pp.kontor@telia.com</li>
-					</ul>
 
-					<ul class="adress-list">
-                        <li class="list-header">Adress</li>
-                        <li>PP Mekanik AB</li>
-                        <li>Borrsvängen 2</li>
-                        <li>247 32 Söra Sandby</li>
-                        <li>Sverige</li>
-					</ul>
+				<div class="row">
+					<div class="6u 12u(narrower)">
+
+						<section class="image-container">
+							<a href="img/full/1.jpeg" 
+								data-lightbox="bilder" 
+								data-title="Click the right half of the image to move forward.">
+
+									<img src="img/1.jpg" alt="">
+							</a>
+
+							<header>
+								<h3>En låda med penna</h3>
+							</header>
+
+						</section>
+
+					</div>
+					<div class="6u 12u(narrower)">
+
+						<section class="image-container">
+							<a href="img/full/2.jpeg" 
+								data-lightbox="bilder" 
+								data-title="Beskrivning av bild">
+
+								<img src="img/2.jpg" alt="">
+
+							</a>
+
+							<header>
+								<h3>Made in Sweden</h3>
+							</header>
+
+						</section>
+
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="6u 12u(narrower)">
+
+						<section class="image-container">
+							<a href="img/full/3.jpeg" 
+								data-lightbox="bilder" 
+								data-title="Beskrivning av bild">
+
+								<img src="img/3.jpg" alt="">
+
+							</a>
+							<header>
+								<h3>Något som liknar en skål</h3>
+							</header>
+
+						</section>
+
+					</div>
+
+					<div class="6u 12u(narrower)">
+
+						<section class="image-container">
+							<a href="img/full/4.jpeg" 
+								data-lightbox="bilder" 
+								data-title="Beskrivning av bild">
+
+								<img src="img/4.jpg" alt="">
+
+							</a>
+
+							<header>
+								<h3>Ser avancerat ut</h3>
+							</header>
+
+						</section>
+
+					</div>
+
+				</div>
+
+				<div class="additional-images-container is-hidden">
+
+					<div class="row">
+						<div class="6u 12u(narrower)">
+
+							<section class="image-container">
+								<a href="img/full/3.jpeg" 
+									data-lightbox="bilder" 
+									data-title="Beskrivning av bild">
+
+									<img src="img/3.jpg" alt="">
+
+								</a>
+								<header>
+									<h3>Något som liknar en skål</h3>
+								</header>
+
+							</section>
+
+						</div>
+
+						<div class="6u 12u(narrower)">
+
+							<section class="image-container">
+								<a href="img/full/4.jpeg" 
+									data-lightbox="bilder" 
+									data-title="Beskrivning av bild">
+
+									<img src="img/4.jpg" alt="">
+
+								</a>
+
+								<header>
+									<h3>Ser avancerat ut</h3>
+								</header>
+
+							</section>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="6u 12u(narrower)">
+
+							<section class="image-container">
+								<a href="img/full/3.jpeg" 
+									data-lightbox="bilder" 
+									data-title="Beskrivning av bild">
+
+									<img src="img/3.jpg" alt="">
+
+								</a>
+								<header>
+									<h3>Något som liknar en skål</h3>
+								</header>
+
+							</section>
+
+						</div>
+
+						<div class="6u 12u(narrower)">
+
+							<section class="image-container">
+								<a href="img/full/4.jpeg" 
+									data-lightbox="bilder" 
+									data-title="Beskrivning av bild">
+
+									<img src="img/4.jpg" alt="">
+
+								</a>
+
+								<header>
+									<h3>Ser avancerat ut</h3>
+								</header>
+
+							</section>
+
+						</div>
+
+					</div>
+
+
+				</div> <!-- .additional-images-container -->
+
+				<footer class="images-footer">
+					<button class="button js-show-more-images">Visa fler bilder</button>
 				</footer>
 
 			</section>
 
-            <div class="google-maps">
-                <iframe width="600" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=pp-Mekanik%20AB%2C%20Borrsv%C3%A4ngen%2C%20S%C3%B6dra%20Sandby%2C%20Sweden&key=AIzaSyDeMyjXgwCHLwTeczpnrNIFyNXEX1hXslY"></iframe>
-            </div>
-            
-		<!-- Footer -->
-			<footer id="footer">
+		</article>
 
-				<ul class="copyright">
-                    <li>Copyright © <span class="js-year">2015</span> <strong>PP Mekanik AB</strong></li>
+		<section id="cta">
+			<header>
+				<h2>Kontakta oss</h2>
+				<p>Hör gärna av dig om du har frågor, funderingar eller vill jobba ihop.</p>
+			</header>
+
+			<footer class="contact-container">
+				<ul class="contact-list">
+					<li class="list-header">Telefon</li>
+					<li>046 - 514 90</li>
+					<li class="list-header">Mobil</li>
+					<li>0705 - 744 514</li>
+					<li class="list-header">E-post</li>
+					<li>pp.kontor@telia.com</li>
 				</ul>
 
+				<ul class="adress-list">
+					<li class="list-header">Adress</li>
+					<li class="contact-logo">PP Mekanik AB</li>
+					<li>Borrsvängen 2</li>
+					<li>247 32 Söra Sandby</li>
+					<li>Sverige</li>
+				</ul>
 			</footer>
+
+		</section>
+
+		<div class="google-maps" id="google-maps"></div>
+            
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="copyright">
+				<li>Copyright © <span class="js-year">2015</span> <strong>PP Mekanik AB</strong></li>
+			</ul>
+		</footer>
+
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/lightbox.min.js"></script>
+		<script src="js/init.js"></script>
 
 	</body>
 </html>

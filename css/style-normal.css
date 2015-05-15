@@ -38,27 +38,21 @@ footer.major {
   padding: 3em;
 }
 
-/* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-normal\.scss}line{font-family:\0000349}}
-#header nav ul li {
-  margin-left: 1em;
-}
-
 /* Banner */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-normal\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-normal\.scss}line{font-family:\0000347}}
 #banner {
   background-attachment: scroll;
 }
 
 /* CTA */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-normal\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-normal\.scss}line{font-family:\0000353}}
 #cta {
   padding: 4em;
   background-attachment: scroll;
 }
 
 /* Footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-normal\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style-normal\.scss}line{font-family:\0000360}}
 #footer {
   padding: 4em;
 }
