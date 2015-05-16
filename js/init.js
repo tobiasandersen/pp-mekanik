@@ -5,7 +5,7 @@
 		language = language === 'swedish' ? 'english' : 'swedish';
      
 		$.ajax({
-			url: '../languages.xml',
+			url: 'languages.xml',
 			success: function(xml) {
 				$(xml).find('translation').each(function() {
 					var id = $(this).attr('id');
