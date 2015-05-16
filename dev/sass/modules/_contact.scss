@@ -1,0 +1,76 @@
+.contact {
+    background-attachment: scroll, scroll, scroll, fixed;
+    background-color: $color-three-bg;
+    background-image: url('images/light-tl.svg'), url('images/light-tr.svg'), url('images/overlay.png'), url('../images/banner.jpg');
+    background-position: top left, top right, top left, bottom center;
+    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+    background-size: 10em, 10em, auto, cover;
+    color: $color-three-fg;
+    padding: 3em;
+    text-align: center;
+    
+    header {
+		margin: 0;
+        margin-bottom: 2em;
+    }
+
+	h2 {
+		font-size: 1.25em;
+		letter-spacing: 0.1em;
+		margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 740px) {
+	.contact {
+		background-size: 15em, 15em, auto, cover;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.contact {
+		background-size: 20em, 20em, auto, cover;
+	}
+}
+
+
+.contact-logo {
+    font-family: "Times New Roman";
+    font-weight: 900;
+}
+
+.contact-container {
+    display: flex;
+	flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+
+    ul {
+		list-style: none;
+		width: 100%;
+
+        .list-header {
+            font-weight: 400;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+	.contact-container {
+		flex-wrap: nowrap;
+		justify-content: center;
+		text-align: left;
+
+		ul {
+			width: auto;
+
+			&:first-of-type {
+				margin-right: 150px;
+			}
+
+			.list-header {
+				font-weight: 400;
+			}
+		}
+	}
+}
