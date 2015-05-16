@@ -35,11 +35,13 @@
 		width: 100%;
         
         ul {
+			display: flex;
+			flex-wrap: wrap;
 			margin: 0 auto;
 
             li {
                 display: block;
-				float: left;
+				// float: left;
                 margin: 0;
 				text-align: center;
 				width: 33%;
@@ -53,30 +55,25 @@
                     text-decoration: none;
                 }
                 
-                .button {
-                    font-size: 1em;
-                    min-width: 0;
-                    width: auto;
-                }
-                
             }
         }
     }
+}
 
-	.change-language-button {
-		background: none;
-		border: none;
-		border-radius: none;
-		cursor: pointer;
-		margin-left: 25px;
-		font-family: inherit;
-		font-weight: 500;
-		font-size: 14px;
-		outline: none;
+.change-language-button {
+	background: none;
+	border: 0;
+	border-radius: none;
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 14px;
+	top: 2px;
+	position: relative;
+	outline: none;
 
-		span {
-			margin-right: 8px;
-		}
+	span {
+		margin-right: 8px;
 	}
 }
 
@@ -128,4 +125,14 @@
 		}
 	}
 
+	.change-language-button {
+		margin-left: 5px;
+		top: 0;
+	}
+}
+
+@media screen and (min-width: 840px) {
+	.change-language-button {
+		margin-left: 20px;
+	}
 }
