@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <translations>
+
+	<translation id="link-services">
+		<swedish>
+			Tjänster
+		</swedish>
+		<english>
+			Services
+		</english>
+	</translation>
+
+	<translation id="link-how">
+		<swedish>
+			Hur vi gör
+		</swedish>
+		<english>
+			How we do
+		</english>
+	</translation>
+
+	<translation id="link-images">
+		<swedish>
+			Bilder
+		</swedish>
+		<english>
+			Images
+		</english>
+	</translation>
+
+	<translation id="link-contact">
+		<swedish>
+			Kontakt
+		</swedish>
+		<english>
+			Contact
+		</english>
+	</translation>
+
 	<translation id="tagline">
 		<swedish>
 			En liten verkstad <![CDATA[<strong>med stora möjligheter</strong>]]>.
