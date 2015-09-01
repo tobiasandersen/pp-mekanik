@@ -3,18 +3,12 @@
 	margin-right: auto;
 	max-width: 960px;
 	min-width: 0;
-	// padding: 0 1.5em 1.25em 1.5em;
 	padding-right: 1.5em;
 	padding-left: 1.5em;
 	padding-bottom: 1.25em;
 	text-align: center;
 	width: auto;
 
-	h2 {
-		margin-top: 0;
-		font-size: 1.25em;
-		letter-spacing: 0.1em;
-	}
 }
 
 .container--box {
@@ -24,27 +18,38 @@
 	background-size: 10em;
 	padding: 1.25em 1.5em;
 
-	h2 {
-		font-size: 1.25em;
-		letter-spacing: 0.1em;
-		line-height: 1.5em;
-		margin-bottom: 1em;
-		text-align: center;
-	}
+}
+
+.Tagline {
+    font-size: 1.25em;
+}
+
+.Region-headline {
+    margin-top: 0;
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    font-size: .9em;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: none;
 }
 
 @media screen and (min-width: 740px) {
 	.container {
 		width: 95%;
 
-		h2 {
-			font-size: 1.5em;
-			line-height: 1.5em;
-		}
 	}
 
 	.container--box {
 		padding: 4em 3em;
 	}
+
+    .Region-headline {
+        font-size: 1.25em;
+        margin-bottom: 45px;
+        text-transform: uppercase;
+    }
 }
 

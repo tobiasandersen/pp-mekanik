@@ -1,6 +1,10 @@
-.job-types {
+.Employers {
     display: flex;
     flex-wrap: wrap;
+}
+
+.job-types {
+    @extend .Employers;
 }
 
 .job-type {
