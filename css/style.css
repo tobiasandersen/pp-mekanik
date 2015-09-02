@@ -5,7 +5,7 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/_utils\.scss}line{font-family:\000035}}
-.u-group:after, .how:after {
+.u-group:after, .WhatWeDo:after {
   content: "";
   display: table;
   clear: both;
@@ -338,7 +338,7 @@ header.special {
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_container\.scss}line{font-family:\000031}}
-.container, .container--box {
+.container, .container--box, .JobTypes {
   margin-left: auto;
   margin-right: auto;
   max-width: 960px;
@@ -378,7 +378,7 @@ header.special {
 
 @media screen and (min-width: 740px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_container\.scss}line{font-family:\0000340}}
-  .container, .container--box {
+  .container, .container--box, .JobTypes {
     width: 95%;
   }
 
@@ -434,8 +434,8 @@ header.special {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\000031}}
-.Employers, .job-types {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\000031}}
+.Employers {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -444,8 +444,8 @@ header.special {
   flex-wrap: wrap;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000310}}
-.job-type {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\000036}}
+.Employer {
   border-right: 1px solid #bbb;
   border-bottom: 1px solid #bbb;
   color: #222;
@@ -455,22 +455,22 @@ header.special {
   text-align: center;
   width: 33%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000320}}
-.job-type:nth-of-type(3n) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000316}}
+.Employer:nth-of-type(3n) {
   border-right: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000324}}
-.job-type:nth-last-child(-n+3) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000320}}
+.Employer:nth-last-child(-n+3) {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000328}}
-.job-type .icon {
-  fill: #444;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000324}}
+.Employer .icon {
+  fill: #666;
   height: 25px;
   width: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000334}}
-.job-type h3 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000330}}
+.Employer h3 {
   color: #555;
   font-size: .7em;
   font-weight: 400;
@@ -479,41 +479,40 @@ header.special {
 }
 
 @media screen and (min-width: 650px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000344}}
-  .job-type {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000340}}
+  .Employer {
     padding: 20px 10px;
   }
 }
 @media screen and (min-width: 620px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000351}}
-  .job-type {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000347}}
+  .Employer {
     padding: 25px 10px;
     width: 25%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000355}}
-  .job-type:nth-of-type(3n) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000351}}
+  .Employer:nth-of-type(3n) {
     border-right: 1px solid #bbb;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000359}}
-  .job-type:nth-last-child(-n+3) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000355}}
+  .Employer:nth-last-child(-n+3) {
     border-bottom: 1px solid #bbb;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000363}}
-  .job-type:nth-of-type(4n) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000359}}
+  .Employer:nth-of-type(4n) {
     border-right: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000367}}
-  .job-type:nth-last-child(-n+4) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000363}}
+  .Employer:nth-last-child(-n+4) {
     border-bottom: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000371}}
-  .job-type .icon {
-    fill: #444;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000367}}
+  .Employer .icon {
     height: 35px;
     width: 35px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000377}}
-  .job-type h3 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000372}}
+  .Employer h3 {
     color: #555;
     font-size: .8em;
     font-weight: 400;
@@ -522,53 +521,141 @@ header.special {
   }
 }
 @media screen and (min-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000388}}
-  .job-type {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_employers\.scss}line{font-family:\0000383}}
+  .Employer {
     padding: 30px 15px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\000031}}
+.JobTypes {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\000037}}
+.JobType {
+  margin-bottom: 60px;
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000311}}
+.JobType .icon {
+  fill: #a9afbc;
+  height: 55px;
+  width: 55px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\0000317}}
+.JobType h3 {
+  color: #A9AFBC;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\000031}}
+#finmekanik-arm,
+#finmekanik-head,
+#finmekanik-right,
+#finmekanik-left {
+  fill: #30353A;
+  stroke: #dbb14e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\000039}}
+#shape-finmekanik {
+  fill: #DBB14E;
+  stroke: #DBB14E;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\0000314}}
+#shape-wrench,
+#shape-cogs {
+  fill: #D35160;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\0000319}}
+#shape-jigg {
+  fill: #927FC9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\0000323}}
+#shape-cnc {
+  fill: #489FC2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\0000327}}
+#shape-fixtur {
+  fill: #CD6CA4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\0000331}}
+#shape-prototype {
+  fill: #3FA28C;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\0000335}}
+#shape-pen-tool {
+  fill: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\0000339}}
+#shape-van {
+  fill: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_icons\.scss}line{font-family:\0000343}}
+#jigg-head-top,
+#jigg-head-bottom,
+#jigg-bend,
+#jigg-top,
+#jigg-foot,
+#jigg-middle-outer,
+#jigg-middle-inner,
+#jigg-arm,
+#jigg-bottom {
+  fill: #30353A;
+  stroke: #927FC9;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\000031}}
-.how {
+.WhatWeDo {
+  background: #30353B;
+  color: white;
   margin-top: 2em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\000036}}
-.how h3 {
-  font-size: 1em;
-  font-weight: 400;
-  letter-spacing: 0.025em;
-  line-height: 1.5em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\000038}}
+.WhatWeDo header h2 {
+  font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000313}}
-.how p {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000312}}
+.WhatWeDo p {
+  margin-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
   max-width: 650px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000320}}
-.how-item {
-  padding-top: 0;
-}
-
 @media screen and (min-width: 740px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000325}}
-  .how {
-    padding-left: 0;
-    padding-right: 0;
-    margin: 50px auto;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000321}}
+  .WhatWeDo {
+    padding: 60px 0;
+    margin: 100px auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000326}}
   .how-item {
     float: left;
     width: 33.33%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000330}}
   .how-item:not(:last-of-type) {
     padding-right: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_how\.scss}line{font-family:\0000334}}
   .how-item:not(:first-of-type) {
     padding-left: 20px;
   }
@@ -646,43 +733,31 @@ header.special {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\000031}}
 .contact {
-  background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #645862;
+  background: url("../img/banner.jpg");
+  background-size: cover;
   color: #fff;
   padding: 3em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\000038}}
 .contact header {
   margin: 0;
   margin-bottom: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000313}}
 .contact h2 {
   font-size: 1.25em;
   letter-spacing: 0.1em;
   margin-top: 0;
 }
 
-@media screen and (min-width: 740px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000325}}
-  .contact {
-    background-size: 15em, 15em, auto, cover;
-  }
-}
-@media screen and (min-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000331}}
-  .contact {
-    background-size: 20em, 20em, auto, cover;
-  }
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000320}}
 .contact-logo {
   font-family: "Times New Roman";
   font-weight: 900;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000325}}
 .contact-container {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -693,18 +768,18 @@ header.special {
   margin: 0 auto;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000331}}
 .contact-container ul {
   list-style: none;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000335}}
 .contact-container ul .list-header {
   font-weight: 400;
 }
 
 @media screen and (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000342}}
   .contact-container {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
@@ -714,15 +789,15 @@ header.special {
     justify-content: center;
     text-align: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000347}}
   .contact-container ul {
     width: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000350}}
   .contact-container ul:first-of-type {
     margin-right: 150px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000354}}
   .contact-container ul .list-header {
     font-weight: 400;
   }
@@ -982,7 +1057,7 @@ body:after {
   border: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000322}}
 footer button {
   background: none;
   border: solid 1px #222;
@@ -1001,24 +1076,24 @@ footer button {
   text-decoration: none;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000340}}
 footer button:active {
   background: #aaa;
   color: #555;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000345}}
 footer button:hover {
   background: #eee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000350}}
 .google-maps {
   position: relative;
   padding-bottom: 30%;
   height: 500px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/style\.scss}line{font-family:\0000356}}
 .google-maps iframe {
   position: absolute;
   top: 0;
