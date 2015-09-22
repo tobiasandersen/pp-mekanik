@@ -1,17 +1,17 @@
 .header {
-    background: #fafafa;
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.175);
+    background: transparent;
     color: #222;
+    color: white;
     font-size: 13px;
     left: 0;
     height: 130px;
 	margin-bottom: 20px;
-    padding-left: 3%;
-    padding-right: 3%;
     position: fixed;
     top: 0;
     width: 100%;
+    transition: all .3s ease;
     z-index: 10000;
+
     
     .logo {
         display: block;
@@ -58,17 +58,30 @@
             }
         }
     }
+
+    &.is-scrolled {
+        background: white;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,0.175);
+        color: #333;
+
+        .change-language-button {
+            color: #333;
+        }
+    }
 }
+
 
 .change-language-button {
 	background: none;
 	border: 0;
 	border-radius: none;
+    color: white;
 	cursor: pointer;
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 14px;
 	top: 2px;
+    transition: all .3s ease;
 	position: relative;
 	outline: none;
 
@@ -97,12 +110,18 @@
 		height: 80px;
 		
 		.logo {
+            background: white;
+            color: black;
 			display: inline;
 			float: left;
 			font-family: "Times New Roman", serif;
-			font-size: 1.6em;
+			font-size: 20px;
 			font-weight: 900;
-			line-height: 80px;
+			line-height: 50px;
+            height: 50px;
+            position: relative;
+            top: 13px;
+            padding: 0 14px;
 			margin: 0;
 			text-transform: none;
 			width: auto;
@@ -110,7 +129,6 @@
 		
 		nav {
 			display: block;
-			float: right;
 			line-height: 80px;
 			width: auto;
 

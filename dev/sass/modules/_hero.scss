@@ -1,22 +1,58 @@
 .hero {
-	margin-bottom: 3em;
+    background: radial-gradient(circle farthest-corner at right bottom,#ffd08a 0,#ffa376 28%,#d26578 52%,#682a84 79%,#241668 100%);
+    color: white;
+    padding-top: 260px;
+    padding-bottom: 260px;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
-	text-align: center;
 
 	h2 {
-		font-size: 1.25em;
-		letter-spacing: 0.1em;
-		line-height: 1.4;
+		font-size: 30px;
+		letter-spacing: 0;
+        margin-bottom: 18px;
+        text-transform: none;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 	}
 
-	p {
-		font-size: .95em;
-	}
+    img {
+        right: -15px;
+        position: absolute;
+        top: -150px;
+        width: 530px;
+    }
 }
 
 .description {
-    margin: 0 auto;
-    max-width: 860px;
+    color: rgba(255,255,255,0.8);
+    font-size: 19px;
+    line-height: 1.5;
+    max-width: 530px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
+.HomeVisits {
+    background: white;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 80px;
+    height: 52px;
+    text-align: center;
+
+    p {
+        font-size: 16px;
+        line-height: 52px;
+        margin: 0 auto;
+        position: relative;
+        width: 850px;
+        // padding: 13px 0;
+    }
+
+    .icon {
+        fill: red;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 5px;
+        width: 40px;
+    }
+}

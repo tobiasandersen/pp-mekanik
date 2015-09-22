@@ -28,6 +28,19 @@
 			$(this).html(swedish);
 	});
 
+    $(window).on("scroll", function() {
+        var isScrolled = false;
+        var distance = document.body.scrollTop;
+
+        if (distance > 20 && !isScrolled) {
+            $('.header').addClass('is-scrolled');
+            isScrolled = true;
+        } else if (distance < 21) {
+            $('.header').removeClass('is-scrolled');
+            isScrolled = false;
+        }
+    });
+
 	$(".page-link").click(function(e) {
 		e.preventDefault();
 		var elementID = $(this).attr("href");
