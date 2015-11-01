@@ -30,7 +30,7 @@
 
     $(window).on("scroll", function() {
         var isScrolled = false;
-        var distance = document.body.scrollTop;
+        var distance = document.documentElement.scrollTop || document.body.scrollTop;
 
         if (distance > 20 && !isScrolled) {
             $('.header').addClass('is-scrolled');

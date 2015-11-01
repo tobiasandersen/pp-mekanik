@@ -1,5 +1,7 @@
 .images {
 	background: #fff;
+  box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.8);
+
 	h3 {
 		font-size: 1em;
 		letter-spacing: 0.025em;
@@ -31,6 +33,9 @@
 }
 
 @media screen and (min-width: 840px) {
+  .images {
+    padding-bottom: 20px;
+  }
 	.image-item {
 		float: left;
 		width: 50%;
