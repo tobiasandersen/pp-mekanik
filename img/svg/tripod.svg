@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="21px" height="23px" viewBox="0 0 21 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+<svg width="62px" height="59px" viewBox="0 0 62 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
     <title>tripod</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="tripod" sketch:type="MSLayerGroup">
-            <rect id="Rectangle-1" sketch:type="MSShapeGroup" x="10" y="1" width="1" height="19"></rect>
-            <rect id="Rectangle-2" sketch:type="MSShapeGroup" transform="translate(5.500000, 11.500000) rotate(25.000000) translate(-5.500000, -11.500000) " x="5" y="0" width="1" height="23"></rect>
-            <rect id="Rectangle-3" sketch:type="MSShapeGroup" transform="translate(15.500000, 11.500000) rotate(-25.000000) translate(-15.500000, -11.500000) " x="15" y="0" width="1" height="23"></rect>
+        <g id="tripod" sketch:type="MSLayerGroup" fill="#000000">
+            <path d="M61.9304508,57.7263368 L46.4304508,30.8795337 L47.7783886,29.9158031 L33.0880829,4.4713886 L33.0880829,2.89119171 L37.9064145,2.89119171 C38.1187565,3.28150259 38.5207927,3.53367876 38.9829016,3.53367876 L41.8098446,3.53367876 C42.4929689,3.53367876 43.0466321,2.98370984 43.0466321,2.24870466 C43.0466321,1.51369948 42.4929689,0.96373057 41.8098446,0.96373057 L38.9829016,0.96373057 C38.5207927,0.96373057 38.1187565,1.21590674 37.9064145,1.60621762 L33.0880829,1.60621762 L33.0880829,0 L32.0928705,0 L30.1968912,0 L28.9119171,0 L28.9119171,4.36248705 L14.1586477,29.9158031 L15.5065855,30.8795337 L0.00658549223,57.7263368 L1.53666839,58.6097565 L28.9119171,11.1945337 L28.9119171,31 L30.1968912,31 L30.1968912,58.626943 L31.9637306,58.626943 L31.9637306,31 L33.0880829,31 L33.0880829,11.3034352 L60.4003679,58.6097565 L61.9304508,57.7263368 L61.9304508,57.7263368 Z" id="Shape" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>
