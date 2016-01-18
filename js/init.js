@@ -55,7 +55,7 @@
 
 		} else {
 			$('html, body').animate({
-				scrollTop: ($(elementID).offset().top - 130)
+				scrollTop: ($(elementID).offset().top - 80)
 			}, 500);
 		}
 
