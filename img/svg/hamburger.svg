@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="20px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M0,1.0093689 C0,0.451909848 0.439813137,0 0.996534824,0 L27.0034652,0 C27.5538362,0 28,0.443353176 28,1.0093689 L28,2.9906311 C28,3.54809015 27.5601869,4 27.0034652,4 L0.996534824,4 C0.446163838,4 0,3.55664682 0,2.9906311 L0,1.0093689 Z M0,9.0093689 C0,8.45190985 0.439813137,8 0.996534824,8 L27.0034652,8 C27.5538362,8 28,8.44335318 28,9.0093689 L28,10.9906311 C28,11.5480902 27.5601869,12 27.0034652,12 L0.996534824,12 C0.446163838,12 0,11.5566468 0,10.9906311 L0,9.0093689 Z M0,17.0093689 C0,16.4519098 0.439813137,16 0.996534824,16 L27.0034652,16 C27.5538362,16 28,16.4433532 28,17.0093689 L28,18.9906311 C28,19.5480902 27.5601869,20 27.0034652,20 L0.996534824,20 C0.446163838,20 0,19.5566468 0,18.9906311 L0,17.0093689 Z" id="hamburger" fill="#000000" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

@@ -1,55 +1,73 @@
-.contact {
-    background: url('../img/banner.jpg');
-    background-size: cover;
-    color: $color-three-fg;
-    padding: 3em;
-    text-align: center;
-    
-    header {
-		margin: 0;
-        margin-bottom: 2em;
-    }
-
-	h2 {
-		font-size: 1.25em;
-		letter-spacing: 0.1em;
-		margin-top: 0;
-	}
+.Contact {
+  background: #30353B;
+  background-size: cover;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.contact-container {
-    display: flex;
-	flex-wrap: wrap;
+.Contact-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+.Contact-list {
+  margin: 0;
+  list-style: none;
+  float: left;
+  width: 50%;
+
+  li {
+    margin-bottom: 2px;
+  }
+}
+
+.Contact-listHeading {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.Contact-about {
+  margin-top: 20px;
+
+  p {
+    border-top: 4px solid rgba(0, 0, 0, .2);
     margin: 0 auto;
-    text-align: center;
-
-    ul {
-		list-style: none;
-		width: 100%;
-
-        .list-header {
-            font-weight: 400;
-        }
-    }
+    max-width: 640px;
+    padding-top: 20px;
+    width: 90%;
+  }
 }
 
-@media screen and (min-width: 600px) {
-	.contact-container {
-		flex-wrap: nowrap;
-		justify-content: center;
-		text-align: left;
+.Contact-aboutByLine {
+  display: block;
+  font-weight: 500;
+  margin-top: 10px;
+}
 
-		ul {
-			width: auto;
+@media screen and (min-width: 650px) {
+  .Contact {
+    font-size: 16px;
+    padding-bottom: 45px;
+  }
 
-			&:first-of-type {
-				margin-right: 150px;
-			}
+  .Contact-about { 
+    margin-top: 30px;
 
-			.list-header {
-				font-weight: 400;
-        margin-top: 12px;
-			}
-		}
-	}
+    p {
+      padding-top: 25px;
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .Contact {
+    padding-bottom: 55px;
+  }
 }

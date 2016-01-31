@@ -1,24 +1,62 @@
 .JobTypes {
-    @extend .container;
-    display: flex;
-    flex-wrap: wrap;
+  @extend .u-group;
+  background: #30353B;
+  color: white;
+  text-align: center;
+}
+
+.JobTypes-grid {
+  @extend .container;
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .JobType {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.JobType-icon {
+  fill: #a9afbc;
+  height: 45px;
+  width: 45px;
+}
+
+.JobType-title {
+  color: #A9AFBC;
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: none;
+}
+
+@media screen and (min-width: 600px) {
+  .JobTypes-grid {
+    margin-top: 35px;
+  }
+
+  .JobType {
     margin-bottom: 60px;
     width: 25%;
+  }
 
-    .icon {
-        fill: #a9afbc;
-        height: 55px;
-        width: 55px;
-    }
+  .JobType-icon {
+    fill: #a9afbc;
+    height: 55px;
+    width: 55px;
+  }
 
-    h3 {
-        color: #A9AFBC;
-        font-size: 16px;
-        font-weight: 100;
-        text-transform: none;
-    }
+  .JobType-title {
+    color: #A9AFBC;
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: none;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .JobTypes-grid {
+    margin-top: 45px;
+  }
 }
 

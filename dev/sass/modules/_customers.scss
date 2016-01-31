@@ -1,0 +1,142 @@
+.Customers {
+  color: #444;
+  padding: 20px 0;
+}
+
+.Customers-regionDescription {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 92%;
+  padding-top: 0;
+  text-align: center;
+  text-transform: none;
+}
+
+.Customers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+
+.Customer {
+  border-bottom: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  color: #222;
+  overflow-wrap: break-word;
+  padding: 15px 10px;
+  width: 50%;
+  word-wrap: break-word;
+  
+  &:nth-of-type(even) {
+    border-right: none;
+  }
+
+  &:nth-last-child(-n+2),
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.Customer-icon {
+  fill: #666;
+  height: 30px;
+  margin-top: 5px;
+  width: 30px;
+}
+
+.Customer-branch {
+  color: #555;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+  text-transform: none;
+}
+
+@media screen and (min-width: 600px) {
+  .Customers-grid {
+    justify-content: space-between;
+  }
+
+  .Customer {
+    padding: 20px 10px;
+    text-align: center;
+    width: 33.33%;
+
+    &:nth-of-type(even) {
+      border-right: 1px solid #bbb;
+    }
+
+    &:nth-of-type(3n) {
+      border-right: none;
+    }
+
+    &:nth-last-child(-n+2) {
+      border-bottom: none;
+    }
+
+    &:last-of-type {
+      border-right: 0;
+      border-left: 1px solid #bbb;
+      position: relative;
+      left: -1px;
+    }
+  }
+    
+  .Customer-branch {
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .Customers-regionDescription {
+    font-size: 1.15em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    margin-bottom: 34px;
+    max-width: none;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .Customers {
+    background: white;
+    box-shadow: 0 1px 5px -2px rgba(0,0,0,.8);
+    padding: 50px;
+  }
+
+  .Customers-regionDescription {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    margin-bottom: 34px;
+  }
+
+  .Customer {
+    padding: 30px 15px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .Customer {
+    width: 25%;
+
+    &:nth-of-type(3n) {
+      border-right: 1px solid #bbb;
+    }
+
+    &:nth-of-type(4n) {
+      border-right: none;
+    }
+
+    &:nth-last-child(-n+4) {
+      border-bottom: none;
+    }
+  }
+}
+
+
