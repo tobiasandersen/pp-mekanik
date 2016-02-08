@@ -32,10 +32,13 @@
     var additionalImages = $('.row--additional');
     additionalImages.toggleClass("is-shown");
 
+    var hideText = language === 'swedish' ? 'Dölj bilder igen' : 'Hide images';
+    var showText = language === 'swedish' ? 'Visa fler bilder' : 'Show more images';
+
     if (additionalImages.hasClass('is-shown')) {
-      $(this).html("Dölj bilder igen");
+      $(this).html(hideText);
     } else {
-      $(this).html("Visa fler bilder");
+      $(this).html(showText);
     }
   });
 

@@ -93,12 +93,10 @@
 
 @media screen and (min-width: 700px) {
   .Customers-regionDescription {
-    font-size: 1.15em;
+    font-size: 20px;
     line-height: 1.5em;
-    letter-spacing: 0.1em;
-    margin-bottom: 34px;
+    margin-bottom: 28px;
     max-width: none;
-    text-transform: uppercase;
   }
 }
 
@@ -110,9 +108,7 @@
   }
 
   .Customers-regionDescription {
-    font-size: 1.25em;
-    line-height: 1.5em;
-    letter-spacing: 0.1em;
+    font-size: 24px;
     margin-bottom: 34px;
   }
 
@@ -122,6 +118,11 @@
 }
 
 @media screen and (min-width: 920px) {
+  .Customers-regionDescription {
+    font-size: 26px;
+    margin-bottom: 38px;
+  }
+
   .Customer {
     width: 25%;
 

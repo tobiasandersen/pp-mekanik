@@ -101,6 +101,26 @@
 	color: #e3fcb1;
 }
 
+@media screen and (min-width: 800px) {
+  .Menu-openButton {
+    top: 25px;
+    height: 26px;
+    width: 26px;
+  }
+
+  .Menu-hamburgerIcon {
+    fill: white;
+    height: 26px;
+    width: 26px;
+  }
+
+  .Header.is-scrolled {
+    .Menu-hamburgerIcon {
+      fill: #111;
+    }
+  }
+}
+
 @media screen and (min-width: 980px) {
   .Menu {
     background: none;

@@ -240,9 +240,9 @@ footer.major {
     background: white;
     display: inline;
     float: left;
-    font-size: 20px;
-    line-height: 50px;
-    height: 50px;
+    font-size: 22px;
+    line-height: 56px;
+    height: 56px;
     position: relative;
     top: 13px;
     padding: 0 14px;
@@ -392,8 +392,28 @@ footer.major {
   color: #e3fcb1;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 800px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003105}}
+  .Menu-openButton {
+    top: 25px;
+    height: 26px;
+    width: 26px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003111}}
+  .Menu-hamburgerIcon {
+    fill: white;
+    height: 26px;
+    width: 26px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003118}}
+  .Header.is-scrolled .Menu-hamburgerIcon {
+    fill: #111;
+  }
+}
+@media screen and (min-width: 980px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003125}}
   .Menu {
     background: none;
     opacity: 1;
@@ -404,7 +424,7 @@ footer.major {
     visibility: visible;
     width: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003135}}
   .Menu nav {
     font-size: 14px;
     height: 100%;
@@ -415,13 +435,13 @@ footer.major {
     transform: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003144}}
   .Menu-openButton,
   .Menu-closeButton {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003149}}
   .Menu-list {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -437,7 +457,7 @@ footer.major {
     -webkit-transform: none;
     transform: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003157}}
   .Menu-list li {
     display: inline-block;
     height: auto;
@@ -447,20 +467,20 @@ footer.major {
     width: auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003167}}
   .Menu-link:hover {
     color: #7AA4B5;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003171}}
   .Header.is-scrolled .Menu-link {
     color: #111;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003174}}
   .Header.is-scrolled .Menu-link:hover {
     color: #aaa;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003178}}
   .Header.is-scrolled .Menu-link.current {
     color: #111;
   }
@@ -886,49 +906,51 @@ header.special {
 @media screen and (min-width: 700px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\0000395}}
   .Customers-regionDescription {
-    font-size: 1.15em;
+    font-size: 20px;
     line-height: 1.5em;
-    letter-spacing: 0.1em;
-    margin-bottom: 34px;
+    margin-bottom: 28px;
     max-width: none;
-    text-transform: uppercase;
   }
 }
 @media screen and (min-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003104}}
   .Customers {
     background: white;
     box-shadow: 0 1px 5px -2px rgba(0, 0, 0, 0.8);
     padding: 50px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003110}}
   .Customers-regionDescription {
-    font-size: 1.25em;
-    line-height: 1.5em;
-    letter-spacing: 0.1em;
+    font-size: 24px;
     margin-bottom: 34px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003115}}
   .Customer {
     padding: 30px 15px;
   }
 }
 @media screen and (min-width: 920px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003121}}
+  .Customers-regionDescription {
+    font-size: 26px;
+    margin-bottom: 38px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003126}}
   .Customer {
     width: 25%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003129}}
   .Customer:nth-of-type(3n) {
     border-right: 1px solid #bbb;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003133}}
   .Customer:nth-of-type(4n) {
     border-right: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\00003137}}
   .Customer:nth-last-child(-n+4) {
     border-bottom: none;
   }

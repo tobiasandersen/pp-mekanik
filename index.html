@@ -88,53 +88,55 @@
       <div class="HomeVisits">
         <p>
           <svg class="icon"><use xlink:href="#shape-home-visits"></use></svg>
-          Har ni en installation eller ett maskineri som inte går att flytta, 
-          så kan även "hembesök" för uppmätning göras.
+          <span id="home-visits">
+            Har ni en installation eller ett maskineri som inte går att flytta, 
+            så kan även "hembesök" för uppmätning göras.
+          </span>
         </p>
       </div>
 
       <section class="container--box Customers waypoint-section" id="customers">
 
         <h2 class="Customers-regionDescription" id="region">
-          Vår kundkrets sträcker sig över flera olika branscher i 
-          Sverige, Danmark och Norge. Flest kunder finns dock i Lund. 
+          Närheten till Lund har resulterat i ett stort antal kunder därifrån,
+          även om flera uppdragsgivare finns i hela Skandinavien.
         </h2>
 
         <section class="Customers-grid">
 
           <div class="Customer">
             <svg class="Customer-icon"><use xlink:href="#shape-medicin"/></svg>
-            <p class="Customer-branch">Medicinteknik</p>
+            <p class="Customer-branch" id="medical-technology">Medicinteknik</p>
           </div>
 
           <div class="Customer">
             <svg class="Customer-icon"><use xlink:href="#shape-packaging"/></svg>
-            <p class="Customer-branch">Förpackningsindustri</p>
+            <p class="Customer-branch" id="packaging-industry">Förpackningsindustri</p>
           </div>
 
           <div class="Customer">
             <svg class="Customer-icon"><use xlink:href="#shape-product-development"/></svg>
-            <p class="Customer-branch">Produktutveckling</p>
+            <p class="Customer-branch" id="product-development">Produktutveckling</p>
           </div>
 
           <div class="Customer">
             <svg class="Customer-icon"><use xlink:href="#shape-lightbulb"/></svg>
-            <p class="Customer-branch">Optomekanik</p>
+            <p class="Customer-branch" id="opto-mechanics">Optomekanik</p>
           </div>
 
           <div class="Customer">
             <svg class="Customer-icon"><use xlink:href="#shape-compose"/></svg>
-            <p class="Customer-branch">Industridesign</p>
+            <p class="Customer-branch" id="industrial-design">Industridesign</p>
           </div>
 
           <div class="Customer">
             <svg class="Customer-icon"><use xlink:href="#shape-group"/></svg>
-            <p class="Customer-branch">Institutioner</p>
+            <p class="Customer-branch" id="institutions">Institutioner</p>
           </div>
 
           <div class="Customer">
             <svg class="Customer-icon"><use xlink:href="#shape-flask"/></svg>
-            <p class="Customer-branch">Laboratorier</p>
+            <p class="Customer-branch" id="laboratories">Laboratorier</p>
           </div>
 
           <div class="Customer">
@@ -147,10 +149,10 @@
 
       <section class="JobTypes waypoint-section" id="job-types">
 
-        <h2>Vad vi gör</h2>
+        <h2 id="what-we-do">Vad vi gör</h2>
 
-        <h3>
-          På PP Mekanik bearbetar vi diverse material. Störst rutin har vi på
+        <h3 id="what-we-do-text">
+          I verkstaden bearbeter vi diverse material. Störst rutin har vi på
           aluminium, vilket även lagerförs. Vi levererar hög kvalitet och att
           kunden ska bli riktigt nöjd har alltid högsta prioritet.
         </h3>
@@ -158,82 +160,82 @@
         <section class="JobTypes-grid">
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-cogs"/></svg>
-            <p class="JobType-title">Konstruktion & Tillverkning</p>
+            <p class="JobType-title" id="construction-manufacturing">Konstruktion & Tillverkning</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-cnc"/></svg>
-            <p class="JobType-title">CAD/CAM & CNC-fräsning</p>
+            <p class="JobType-title" id="cad-cam-cnc">CAD/CAM & CNC-fräsning</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-metal"/></svg>
-            <p class="JobType-title">Metall- & Plastdetaljer</p>
+            <p class="JobType-title" id="metal-plastic">Metall- & Plastdetaljer</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-prototype"/></svg>
-            <p class="JobType-title">Prototyper & Lågserier</p>
+            <p class="JobType-title" id="prototypes">Prototyper & Lågserier</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-open-box"/></svg>
-            <p class="JobType-title">Formatdelar för djupdragare</p>
+            <p class="JobType-title" id="shaped-parts">Formatdelar för djupdragare</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-fixtur"/></svg>
-            <p class="JobType-title">Stativ & Ställningar</p>
+            <p class="JobType-title" id="stands">Stativ & Ställningar</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-triangle"/></svg>
-            <p class="JobType-title">Stommar & Stöd</p>
+            <p class="JobType-title" id="frames">Stommar & Stöd</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-special"/></svg>
-            <p class="JobType-title">Specialanordningar</p>
+            <p class="JobType-title" id="special-devices">Specialanordningar</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-tripod"/></svg>
-            <p class="JobType-title">Plattformar & Säten</p>
+            <p class="JobType-title" id="platforms">Plattformar & Säten</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-wrench"/></svg>
-            <p class="JobType-title">Reparationer & Ändringar</p>
+            <p class="JobType-title" id="reparations">Reparationer & Ändringar</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-finmekanik"/></svg>
-            <p class="JobType-title">Finmekanik & TIG-svetsning</p>
+            <p class="JobType-title" id="tig-welding">Finmekanik & TIG-svetsning</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-lab"/></svg>
-            <p class="JobType-title">Test- & labutrustning</p>
+            <p class="JobType-title" id="test-lab-equipment">Test- & labutrustning</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-jigg"/></svg>
-            <p class="JobType-title">Jiggar & Riggar</p>
+            <p class="JobType-title" id="jigs-rigs">Jiggar & Riggar</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-pen-tool"/></svg>
-            <p class="JobType-title">Mojänger & Prylar</p>
+            <p class="JobType-title" id="gadgets">Mojänger & Prylar</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-computer"/></svg>
-            <p class="JobType-title">Simpelt eller Avancerat</p>
+            <p class="JobType-title" id="simple-or-advanced">Simpelt eller Avancerat</p>
           </div>
 
           <div class="JobType">
             <svg class="JobType-icon"><use xlink:href="#shape-van"/></svg>
-            <p class="JobType-title">Hembesök för Uppmätning</p>
+            <p class="JobType-title" id="homevisits-for-measurement">Hembesök för Uppmätning</p>
           </div>
 
         </section>
@@ -241,7 +243,7 @@
 
       <section class="images container--box waypoint-section" id="images">
 
-        <h2>Bilder i urval</h2>
+        <h2 id="selection-of-images">Bilder i urval</h2>
 
         <div class="row">
 
@@ -256,13 +258,10 @@
           </div>
 
           <div class="image-item">
-
             <section class="image-container">
               <a href="img/full/2.jpg" 
                 data-lightbox="bilder">
-
                 <img src="img/2.jpg" alt="">
-
               </a>
             </section>
 
@@ -271,122 +270,93 @@
 
         <div class="row">
           <div class="image-item">
-
             <section class="image-container">
               <a href="img/full/3.jpg" 
                 data-lightbox="bilder">
-
                 <img src="img/3.jpg" alt="">
-
               </a>
-
             </section>
-
           </div>
 
           <div class="image-item">
-
             <section class="image-container">
               <a href="img/full/4.jpg" 
                 data-lightbox="bilder">
-
                 <img src="img/4.jpg" alt="">
-
               </a>
             </section>
-
           </div>
-
         </div>
 
         <div class="row--additional row">
           <div class="image-item">
-
             <section class="image-container">
               <a href="img/full/5.jpg" 
                 data-lightbox="bilder">
-
                 <img src="img/5.jpg" alt="">
-
               </a>
             </section>
-
           </div>
 
           <div class="image-item">
-
             <section class="image-container">
               <a href="img/full/6.jpg" 
                 data-lightbox="bilder">
-
                 <img src="img/6.jpg" alt="">
-
               </a>
             </section>
-
           </div>
-
         </div>
 
         <div class="row--additional row">
           <div class="image-item">
-
             <section class="image-container">
               <a href="img/full/7.jpg" 
                 data-lightbox="bilder">
-
                 <img src="img/7.jpg" alt="">
-
               </a>
             </section>
-
           </div>
 
           <div class="image-item">
-
             <section class="image-container">
               <a href="img/full/8.jpg" 
                 data-lightbox="bilder" 
                 data-title="Beskrivning av bild">
-
                 <img src="img/8.jpg" alt="">
-
               </a>
             </section>
-
           </div>
-
         </div>
 
         <footer class="images-footer">
-          <button class="button js-show-more-images">Visa fler bilder</button>
+          <button class="button js-show-more-images" id="show-more-images">Visa fler bilder</button>
         </footer>
 
       </section>
-
     </article>
 
     <section class="Contact waypoint-section" id="contact">
 
-      <h2>Kontakta oss</h2>
+      <h2 id="contact-us">Kontakta oss</h2>
 
-      <h3>
+      <h3 id="contact-us-text">
         Hör gärna av dig om du har frågor eller funderingar. Du är också varmt
         välkommen att besöka oss!
       </h3>
 
       <div class="Contact-wrap">
         <ul class="Contact-list">
-          <li class="Contact-listHeading">Telefon</li>
+          <li class="Contact-listHeading" id="telephone">Telefon</li>
           <li>046 - 514 90</li>
           <li class="Contact-listHeading">Jens Carlsson</li>
           <li>0705 - 74 45 14</li>
-          <li class="Contact-listHeading">E-post</li>
+          <li class="Contact-listHeading" id="email">E-post</li>
           <li>pp.kontor[at]telia.com</li>
         </ul>
 
         <ul class="Contact-list">
-          <li class="Contact-listHeading">Adress</li>
+          <li class="Contact-listHeading" id="address">Adress</li>
           <li class="contact-logo">PP Mekanik AB</li>
           <li>Borrsvängen 2</li>
           <li>247 32 Södra Sandby</li>
@@ -396,8 +366,10 @@
 
       <div class="Contact-about">
         <p>
-          PP Mekanik AB startades redan 1977 av mina föräldrar. 
-          Jag har arbetat i företaget sedan 1990 och övertog verksamheten 2012. 
+          <span id="contact-about">
+            PP Mekanik AB startades redan 1977 av mina föräldrar. 
+            Jag har arbetat i företaget sedan 1990 och övertog verksamheten 2012. 
+          </span>
           <span class="Contact-aboutByLine">Jens Carlsson</span>
         </p>
       </div>
@@ -412,12 +384,23 @@
       </ul>
     </footer>
 
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-73430256-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.waypoints.js"></script>
     <script src="js/lightbox.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
     <script src="js/init.js"></script>
     <script src="js/nav.js"></script>
+
 
   </body>
 </html>
