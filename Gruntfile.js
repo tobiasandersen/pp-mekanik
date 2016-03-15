@@ -17,7 +17,7 @@ module.exports = function (grunt) {
   // Configurable paths for the application
   var appConfig = {
     app: 'dev',
-    dist: 'build'
+    dist: 'dist'
   };
 
   // Define the configuration for all the tasks
@@ -29,11 +29,15 @@ module.exports = function (grunt) {
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       js: {
-        files: ['<%= site.app %>/scripts/{,*/}*.js'],
+        files: ['<%= site.app %>/js/{,*/}*.js'],
         tasks: ['newer:jshint:all'],
         options: {
           livereload: '<%= connect.options.livereload %>'
         }
+      },
+      sass: {
+        files: ['<%= site.app %>/sass/**/*.{scss,sass}'],
+        tasks: ['sass:server', 'autoprefixer']
       },
       compass: {
         files: ['<%= site.app %>/sass/{,*/}*.{scss,sass}'],
@@ -55,6 +59,39 @@ module.exports = function (grunt) {
           'css/{,*/}*.css',
           '<%= site.dist %>/img/**/*.{png,jpg,jpeg,gif,webp,svg}'
         ]
+      }
+    },
+
+    sass: {
+      options: {
+        debugInfo: false,
+        lineNumbers: false
+      },
+      dist: {
+        options: {
+          style: 'compressed',
+          sourcemap: 'none'
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= site.app %>/sass',
+          src: '**/*.{scss,sass}',
+          dest: '<%= site.dist %>/css',
+          ext: '.css'
+        }]
+      },
+      server: {
+        options: {
+          debugInfo: true,
+          lineNumbers: true
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= site.app %>/sass',
+          src: '**/*.{scss,sass}',
+          dest: '.tmp/css',
+          ext: '.css'
+        }]
       }
     },
 
@@ -82,7 +119,7 @@ module.exports = function (grunt) {
       all: {
         src: [
           'Gruntfile.js',
-          '<%= site.app %>/scripts/{,*/}*.js'
+          '<%= site.app %>/js/{,*/}*.js'
         ]
       }
     },
@@ -108,12 +145,16 @@ module.exports = function (grunt) {
         browsers: ['last 2 versions']
       },
       dist: {
-        files: [{
-          expand: true,
-          cwd: '',
-          src: '{,*/}*.css',
-          dest: ''
-        }]
+        expand: true,
+        cwd: '.tmp',
+        src: '**/{css,concat}/*.css',
+        dest: '.tmp'
+      },
+      build: {
+        expand: true,
+        cwd: '<%= site.dist %>',
+        src: '**/{css,concat}/*.css',
+        dest: '<%= site.dist %>'
       }
     },
 
@@ -124,7 +165,7 @@ module.exports = function (grunt) {
         cssDir: 'css',
         generatedImagesDir: '.tmp/images/generated',
         imagesDir: '<%= site.app %>/images',
-        javascriptsDir: '<%= site.app %>/scripts',
+        javascriptsDir: '<%= site.app %>/js',
         fontsDir: '<%= site.app %>/styles/fonts',
         httpImagesPath: '/images',
         httpGeneratedImagesPath: '/images/generated',
@@ -145,14 +186,56 @@ module.exports = function (grunt) {
       }
     },
 
+    // Renames files for browser caching purposes
+    filerev: {
+      dist: {
+        src: [
+          '<%= site.dist %>/js/{,*/}*.js',
+          '<%= site.dist %>/styles/{,*/}*.css',
+          '<%= site.dist %>/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+        ]
+      }
+    },
+
     imagemin: {
       dist: {
+        options: {
+          progressive: true
+        },
         files: [{
           expand: true,
-          cwd: '<%= site.app %>/images',
+          cwd: 'img',
           src: '{,*/}*.{png,jpg,jpeg,gif}',
           dest: '<%= site.dist %>/img'
         }]
+      }
+    },
+
+    useminPrepare: {
+      options: {
+        dest: '<%= site.dist %>'
+      },
+      html: '<%= site.dist %>/index.html'
+    },
+
+    usemin: {
+      options: {
+        assetsDirs: ['<%= site.dist %>', '<%= site.dist %>/img']
+      },
+      html: ['<%= site.dist %>/**/*.html'],
+      css: ['<%= site.dist %>/css/**/*.css']
+    },
+
+    // Usemin adds files to concat
+    concat: {},
+    // Usemin adds files to uglify
+    uglify: {},
+    // Usemin adds files to cssmin
+    cssmin: {
+      dist: {
+        options: {
+          check: 'gzip'
+        }
       }
     },
 
@@ -196,24 +279,37 @@ module.exports = function (grunt) {
     // Copies remaining files to places other tasks can use
     copy: {
       dist: {
+        files: [
+          {
+            expand: true,
+            dot: true,
+            cwd: './',
+            dest: '<%= site.dist %>',
+            src: [
+              'index.html',
+              '.htaccess',
+            ]
+          }, 
+          {
+            expand: true,
+            cwd: 'img',
+            dest: '<%= site.dist %>/images',
+            src: ['generated/*']
+          }
+        ]
+      },
+      
+      // Copy CSS into .tmp directory for Autoprefixer processing
+      stageCss: {
         files: [{
           expand: true,
           dot: true,
-          cwd: '<%= site.app %>',
-          dest: '<%= site.dist %>',
-          src: [
-            '*.{ico,png,txt}',
-            '.htaccess',
-            'images/{,*/}*.{webp}',
-            'fonts/*',
-          ]
-        }, {
-          expand: true,
-          cwd: '.tmp/images',
-          dest: '<%= site.dist %>/images',
-          src: ['generated/*']
+          cwd: '<%= site.app %>/sass',
+          src: '**/*.css',
+          dest: '.tmp/css'
         }]
       },
+
       styles: {
         expand: true,
         cwd: '<%= site.app %>/styles',
@@ -225,12 +321,13 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       server: [
-        'compass:server'
+        'compass:server',
+	      'copy:stageCss'
+
       ],
       dist: [
-        'compass:dist',
-        'imagemin',
-        'svgmin'
+        'sass:dist',
+        'copy:dist'
       ]
     }
 
@@ -259,8 +356,21 @@ module.exports = function (grunt) {
     grunt.task.run(['serve:' + target]);
   });
 
+  grunt.registerTask('build', [
+    'clean:dist',
+    'concurrent:dist',
+    'useminPrepare',
+    'concat',
+    'uglify',
+    'imagemin',
+    'cssmin',
+    'usemin',
+    'autoprefixer'
+  ]);
+
   grunt.registerTask('default', [
     'newer:jshint',
     'build'
   ]);
+
 };
