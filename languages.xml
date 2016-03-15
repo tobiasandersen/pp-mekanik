@@ -2,263 +2,263 @@
 <translations>
 
   <translation id="link-customers">
-    <swedish>Uppdragsgivare</swedish>
-    <english>Customers</english>
+    <sv>Uppdragsgivare</sv>
+    <en>Customers</en>
   </translation>
 
   <translation id="link-job-types">
-    <swedish>Vad vi gör</swedish>
-    <english>What we do</english>
+    <sv>Vad vi gör</sv>
+    <en>What we do</en>
   </translation>
 
   <translation id="construction-manufacturing">
-    <swedish>Konstruktion &amp; Tillverkning</swedish>
-    <english>Construction &amp; Manufacturing</english>
+    <sv>Konstruktion &amp; Tillverkning</sv>
+    <en>Construction &amp; Manufacturing</en>
   </translation>
 
   <translation id="cad-cam-cnc">
-    <swedish>CAD/CAM &amp; CNC-fräsning</swedish>
-    <english>CAD/CAM &amp; CNC milling</english>
+    <sv>CAD/CAM &amp; CNC-fräsning</sv>
+    <en>CAD/CAM &amp; CNC milling</en>
   </translation>
 
   <translation id="metal-plastic">
-    <swedish>Metall- &amp; Plastdetaljer</swedish>
-    <english>Metal &amp; Plastic parts</english>
+    <sv>Metall- &amp; Plastdetaljer</sv>
+    <en>Metal &amp; Plastic parts</en>
   </translation>
 
   <translation id="prototypes">
-    <swedish>Prototyper &amp; Lågserier</swedish>
-    <english>Prototypes &amp; Small editions</english>
+    <sv>Prototyper &amp; Lågserier</sv>
+    <en>Prototypes &amp; Small editions</en>
   </translation>
 
   <translation id="shaped-parts">
-    <swedish>Formatdelar för djupdragare</swedish>
-    <english>Parts for thermoforming</english>
+    <sv>Formatdelar för djupdragare</sv>
+    <en>Parts for thermoforming</en>
   </translation>
 
   <translation id="stands">
-    <swedish>Stativ &amp; Ställningar</swedish>
-    <english>Stands &amp; Racks</english>
+    <sv>Stativ &amp; Ställningar</sv>
+    <en>Stands &amp; Racks</en>
   </translation>
 
   <translation id="frames">
-    <swedish>Stommar &amp; Stöd</swedish>
-    <english>Frames &amp; Support</english>
+    <sv>Stommar &amp; Stöd</sv>
+    <en>Frames &amp; Support</en>
   </translation>
 
   <translation id="special-devices">
-    <swedish>Specialanordningar</swedish>
-    <english>Special devices</english>
+    <sv>Specialanordningar</sv>
+    <en>Special devices</en>
   </translation>
 
   <translation id="platforms">
-    <swedish>Plattformar &amp; Säten</swedish>
-    <english>Platforms &amp; Seatings</english>
+    <sv>Plattformar &amp; Säten</sv>
+    <en>Platforms &amp; Seatings</en>
   </translation>
 
   <translation id="reparations">
-    <swedish>Reparationer &amp; Ändringar</swedish>
-    <english>Repairs &amp; Changes</english>
+    <sv>Reparationer &amp; Ändringar</sv>
+    <en>Repairs &amp; Changes</en>
   </translation>
 
   <translation id="tig-welding">
-    <swedish>Finmekanik &amp; TIG-svetsning</swedish>
-    <english>Precision mechanics &amp; TIG welding</english>
+    <sv>Finmekanik &amp; TIG-svetsning</sv>
+    <en>Precision mechanics &amp; TIG welding</en>
   </translation>
 
   <translation id="test-lab-equipment">
-    <swedish>Test- &amp; labutrustning</swedish>
-    <english>Test &amp; Laboratory equipment</english>
+    <sv>Test- &amp; labutrustning</sv>
+    <en>Test &amp; Laboratory equipment</en>
   </translation>
 
   <translation id="jigs-rigs">
-    <swedish>Jiggar &amp; Riggar</swedish>
-    <english>Jigs &amp; Rigs</english>
+    <sv>Jiggar &amp; Riggar</sv>
+    <en>Jigs &amp; Rigs</en>
   </translation>
 
   <translation id="gadgets">
-    <swedish>Mojänger &amp; Prylar</swedish>
-    <english>Gadgets &amp; Contraptions</english>
+    <sv>Mojänger &amp; Prylar</sv>
+    <en>Gadgets &amp; Contraptions</en>
   </translation>
 
   <translation id="simple-or-advanced">
-    <swedish>Simpelt eller Avancerat</swedish>
-    <english>Simple or Advanced</english>
+    <sv>Simpelt eller Avancerat</sv>
+    <en>Simple or Advanced</en>
   </translation>
 
   <translation id="homevisits-for-measurement">
-    <swedish>Hembesök för Uppmätning</swedish>
-    <english>Home visits for measuring</english>
+    <sv>Hembesök för Uppmätning</sv>
+    <en>Home visits for measuring</en>
   </translation>
 
   <translation id="link-images">
-    <swedish>Bilder</swedish>
-    <english>Images</english>
+    <sv>Bilder</sv>
+    <en>Images</en>
   </translation>
 
   <translation id="link-contact">
-    <swedish>Kontakt/Om</swedish>
-    <english>Contact/About</english>
+    <sv>Kontakt/Om</sv>
+    <en>Contact/About</en>
   </translation>
 
   <translation id="tagline">
-    <swedish>
+    <sv>
       En liten verkstad <![CDATA[<strong>med stora möjligheter</strong>]]>.
-    </swedish>
-    <english>
+    </sv>
+    <en>
       A small workshop <![CDATA[<strong>with big possibilities</strong>]]>.
-    </english>
+    </en>
   </translation>
 
   <translation id="description">
-    <swedish>
+    <sv>
       Vi tillverkar metall- och plastdetaljer efter 
       3D-filer, ritningar, skisser eller muntliga beskrivningar.
       Vi hjälper gärna till att utveckla era idéer till precis det ni behöver.
-    </swedish>
-    <english>
+    </sv>
+    <en>
       We manufacture metal and plastic parts from 3D files, drawings, sketches or 
       verbal descriptions. Together we can help you develop your ideas to 
       satisfy your exact needs.
-    </english>
+    </en>
   </translation>
 
   <translation id="home-visits">
-    <swedish>
+    <sv>
       Har ni en installation eller ett maskineri som inte går att flytta, 
       så kan även "hembesök" för uppmätning göras.
-    </swedish>
+    </sv>
 
-    <english>
+    <en>
       If you have an installation or machinery that can't be moved, don't worry! 
       We also make home visits to measure your needs.
-    </english>
+    </en>
   </translation>
 
   <translation id="region">
-    <swedish>
+    <sv>
       Närheten till Lund har resulterat i ett stort antal kunder därifrån,
       även om flera uppdragsgivare finns i hela Skandinavien.
-    </swedish>
-    <english>
+    </sv>
+    <en>
       Our closeness to Lund has resulted in a large number of customers from there,
       but we also have several customers throughout Scandinavia.
-    </english>
+    </en>
   </translation>
 
   <translation id="medical-technology">
-    <swedish>Medicinteknik</swedish>
-    <english>Medical technology</english>
+    <sv>Medicinteknik</sv>
+    <en>Medical technology</en>
   </translation>
 
   <translation id="packaging-industry">
-    <swedish>Förpackningsindustri</swedish>
-    <english>Packaging industry</english>
+    <sv>Förpackningsindustri</sv>
+    <en>Packaging industry</en>
   </translation>
 
   <translation id="product-development">
-    <swedish>Productutveckling</swedish>
-    <english>Product development</english>
+    <sv>Productutveckling</sv>
+    <en>Product development</en>
   </translation>
 
   <translation id="opto-mechanics">
-    <swedish>Optomekanik</swedish>
-    <english>Opto-mechanics</english>
+    <sv>Optomekanik</sv>
+    <en>Opto-mechanics</en>
   </translation>
 
   <translation id="industrial-design">
-    <swedish>Industridesign</swedish>
-    <english>Industrial design</english>
+    <sv>Industridesign</sv>
+    <en>Industrial design</en>
   </translation>
 
   <translation id="institutions">
-    <swedish>Institutioner</swedish>
-    <english>Institutions</english>
+    <sv>Institutioner</sv>
+    <en>Institutions</en>
   </translation>
 
   <translation id="laboratories">
-    <swedish>Laboratorier</swedish>
-    <english>Laboratories</english>
+    <sv>Laboratorier</sv>
+    <en>Laboratories</en>
   </translation>
 
   <translation id="what-we-do">
-    <swedish>Vad vi gör</swedish>
-    <english>What we do</english>
+    <sv>Vad vi gör</sv>
+    <en>What we do</en>
   </translation>
 
   <translation id="what-we-do-text">
-    <swedish>
+    <sv>
       I verkstaden bearbeter vi diverse material. Störst rutin har vi på
       aluminium, vilket även lagerförs. Vi levererar hög kvalitet och att
       kunden ska bli riktigt nöjd har alltid högsta prioritet.
-    </swedish>
-    <english>
+    </sv>
+    <en>
       We use various materials in our workshop but we have most experience 
       using aluminium, which we always have in stock. We produce high quality 
       results and always make sure that our customers are truly satisfied.
-    </english>
+    </en>
   </translation>
 
   <translation id="laboratories">
-    <swedish>Laboratorier</swedish>
-    <english>Laboratories</english>
+    <sv>Laboratorier</sv>
+    <en>Laboratories</en>
   </translation>
 
   <translation id="selection-of-images">
-    <swedish>Bilder i urval</swedish>
-    <english>A selection of images</english>
+    <sv>Bilder i urval</sv>
+    <en>A selection of images</en>
   </translation>
 
   <translation id="show-more-images">
-    <swedish>Visa fler bilder</swedish>
-    <english>Show more images</english>
+    <sv>Visa fler bilder</sv>
+    <en>Show more images</en>
   </translation>
 
   <translation id="contact-us">
-    <swedish>Kontakta oss</swedish>
-    <english>Contact us</english>
+    <sv>Kontakta oss</sv>
+    <en>Contact us</en>
   </translation>
 
   <translation id="contact-us-text">
-    <swedish>
+    <sv>
       Hör gärna av dig om du har frågor eller funderingar. Du är också varmt
       välkommen att besöka oss!
-    </swedish>
-    <english>
+    </sv>
+    <en>
       Please get in touch if you have any questions or queries. You are always 
       welcome to visit us!
-    </english>
+    </en>
   </translation>
 
   <translation id="telephone">
-    <swedish>Telefon</swedish>
-    <english>Telephone</english>
+    <sv>Telefon</sv>
+    <en>Telephone</en>
   </translation>
 
   <translation id="email">
-    <swedish>E-post</swedish>
-    <english>Email</english>
+    <sv>E-post</sv>
+    <en>Email</en>
   </translation>
 
   <translation id="address">
-    <swedish>Adress</swedish>
-    <english>Address</english>
+    <sv>Adress</sv>
+    <en>Address</en>
   </translation>
 
   <translation id="contact-about">
-    <swedish>
+    <sv>
       PP Mekanik AB startades redan 1977 av mina föräldrar. 
       Jag har arbetat i företaget sedan 1990 och övertog verksamheten 2012.
-    </swedish>
-    <english>
+    </sv>
+    <en>
       PP Mekanik was founded by my parents in 1977 and I've worked in the company 
       since 1990. I took the sole control of the business in 2012.
-    </english>
+    </en>
   </translation>
 
   <translation id="contact-us">
-    <swedish>Kontakta oss</swedish>
-    <english>Contact us</english>
+    <sv>Kontakta oss</sv>
+    <en>Contact us</en>
   </translation>
 
 </translations>	
