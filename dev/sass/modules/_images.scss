@@ -9,14 +9,6 @@
 	}
 }
 
-.image-container {
-	overflow: hidden;
-
-	a {
-		border: none;
-	}
-}
-
 .image-item {
 	clear: none;
 	margin-left: 0;
@@ -24,13 +16,25 @@
 	width: 100%;
 }
 
+.image-container {
+  width: 100%;
+
+	a {
+		border: none;
+	}
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
 .images-footer {
 	margin: 15px 0 25px 0;
 	width: 100%;
 }
 
-.row--additional {
-	@extend .row;
+.additional-images-container {
 	display: none;
 	opacity: 0;
 	height: 0;
@@ -40,11 +44,6 @@
 		display: block;
 		opacity: 1; 
 		height: auto;
-	}
-}
-
-@media screen and (min-width: 740px) {
-	.images {
 	}
 }
 
