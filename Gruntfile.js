@@ -287,6 +287,8 @@ module.exports = function (grunt) {
             dest: '<%= site.dist %>',
             src: [
               'index.html',
+              'flags/**/*',
+              'languages.xml',
               '.htaccess',
             ]
           }, 
