@@ -288,6 +288,7 @@ module.exports = function (grunt) {
             src: [
               'index.html',
               'flags/**/*',
+              'favicon/**/*',
               'languages.xml',
               '.htaccess',
             ]
