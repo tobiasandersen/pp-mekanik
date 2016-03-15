@@ -1,0 +1,148 @@
+.Hero {
+  background-image: radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)), linear-gradient(-8deg,#26d0ce,#1a2980 90%);
+  color: white;
+  padding: 50px 10px 205px 10px;
+  text-align: center;
+
+  img {
+    bottom: -230px;
+    margin-left: 50%;
+    left: -100px;
+    position: absolute;
+    width: 230px;
+  }
+}
+
+.Hero-tagline {
+  font-weight: 300;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  margin-bottom: 18px;
+  text-transform: none;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.Hero-description {
+  color: rgba(255,255,255,0.8);
+  font-size: 17px;
+  line-height: 1.5;
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width: 540px) {
+  .Hero-tagline {
+    margin: 30px auto 20px auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .Hero {
+    padding: 140px 0 150px 0;
+    text-align: left;
+  }
+
+  .Hero-tagline {
+    font-size: 23px;
+  }
+
+  .Hero-description {
+    margin: 0;
+    font-size: 16px;
+    width: 420px;
+  }
+
+  .Hero img {
+    bottom: auto;
+    left: auto;
+    right: -15px;
+    top: -90px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .Hero {
+    padding: 160px 0 170px 0;
+  }
+
+  .Hero-tagline {
+    font-size: 25px;
+  }
+
+  .Hero-description {
+    margin: 0;
+    font-size: 17px;
+    width: 460px;
+  }
+
+  .Hero img {
+    top: -105px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Hero {
+    padding: 180px 0 190px 0;
+  }
+
+  .Hero-tagline {
+    font-size: 28px;
+  }
+
+  .Hero-description {
+    font-size: 18px;
+    width: 500px;
+  }
+
+  .Hero img {
+    top: -120px;
+    width: 380px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .Hero {
+    padding: 220px 0 230px 0;
+  }
+
+  .Hero-tagline {
+    font-size: 30px;
+  }
+
+  .Hero-description {
+    font-size: 19px;
+    width: 500px;
+  }
+
+  .Hero img {
+    top: -140px;
+    width: 430px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Hero {
+    padding: 260px 1.2em;
+  }
+
+  .Hero img {
+    top: -170px;
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .Hero {
+    padding: 260px 1.5em;
+    
+    img {
+      top: -180px;
+      width: 530px;
+    }
+  }
+}

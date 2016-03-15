@@ -162,6 +162,8 @@ module.exports = function (grunt) {
                 { removeViewBox: false },
                 { removeUselessStrokeAndFill: false },
                 { removeEmptyAttrs: false },
+                { cleanupIDs: false },
+                { removeUnknownsAndDefaults: false },
                 { collapseGroups: false },
                 { moveGroupAttrsToElems: false }
             ]

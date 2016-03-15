@@ -1,0 +1,73 @@
+.Contact {
+  background: #30353B;
+  background-size: cover;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.Contact-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+.Contact-list {
+  margin: 0;
+  list-style: none;
+  float: left;
+  width: 50%;
+
+  li {
+    margin-bottom: 2px;
+  }
+}
+
+.Contact-listHeading {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.Contact-about {
+  margin-top: 20px;
+
+  p {
+    border-top: 4px solid rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    max-width: 640px;
+    padding-top: 20px;
+    width: 90%;
+  }
+}
+
+.Contact-aboutByLine {
+  display: block;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 650px) {
+  .Contact {
+    font-size: 16px;
+    padding-bottom: 45px;
+  }
+
+  .Contact-about { 
+    margin-top: 30px;
+
+    p {
+      padding-top: 25px;
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .Contact {
+    padding-bottom: 55px;
+  }
+}

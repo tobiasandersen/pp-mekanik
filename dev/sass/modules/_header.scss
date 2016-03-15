@@ -1,0 +1,93 @@
+.Header {
+  background: white;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.175);
+  color: white;
+  font-size: 13px;
+  left: 0;
+  height: 50px;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  transition: all .3s ease;
+  width: 100%;
+  z-index: 10;
+
+  .Header-logo {
+    color: black;
+    float: left;
+    display: block;
+    font-family: "Times New Roman", serif;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 50px;
+    height: 50px;
+    margin: 0;
+    text-align: center;
+    text-transform: none;
+  }
+
+}
+
+.change-language-button {
+  background: none;
+  border: 0;
+  border-radius: none;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  top: 2px;
+  transition: all .3s ease;
+  position: relative;
+  outline: none;
+
+  span {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .Header {
+    background: transparent;
+    box-shadow: none;
+    font-size: 0.8em;
+    height: 80px;
+
+    .Header-logo {
+      background: white;
+      display: inline;
+      float: left;
+      font-size: 22px;
+      line-height: 56px;
+      height: 56px;
+      position: relative;
+      top: 13px;
+      padding: 0 14px;
+      margin: 0;
+      text-transform: none;
+      width: auto;
+    }
+
+    &.is-scrolled {
+      background: white;
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,0.175);
+      color: #333;
+
+      .change-language-button {
+        color: #333;
+      }
+    }
+  }
+
+  .change-language-button {
+    margin-left: 5px;
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .change-language-button {
+    margin-left: 20px;
+  }
+}

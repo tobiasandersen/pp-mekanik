@@ -1,0 +1,36 @@
+.Footer {
+  background: #222;
+  color: #ccc;
+  padding: 30px;
+  text-align: center;
+}
+
+.Footer-copyright {
+  font-size: 15px;
+  line-height: 1em;
+
+  li {
+    display: inline-block;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: dotted 1px;
+
+    &:first-child {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    strong {
+      margin-left: 5px;
+      font-family: "Times New Roman", serif;
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .Footer {
+    padding: 3em 0;
+  }
+}

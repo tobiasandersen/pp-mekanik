@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="224px" height="234px" viewBox="0 0 224 234" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>packaging</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="packaging" sketch:type="MSLayerGroup" transform="translate(0.000000, 2.000000)" stroke-width="5" stroke="#000000">
+            <g id="Layer_120" sketch:type="MSShapeGroup">
+                <path d="M102.016,219.451 L33.578,116.795 L102.016,14.139 L121.984,27.451 L62.422,116.795 L121.984,206.139 L102.016,219.451 Z" id="arm"></path>
+                <path d="M0,228.795 L224,228.795" id="Shape"></path>
+                <path d="M80,220.795 C80,203.122 94.326,188.795 112,188.795 C129.674,188.795 144,203.122 144,220.795" id="bottom" fill="#BCEBDD"></path>
+                <path d="M48,228.795 L80,220.795 L144,220.795 L176,228.795" id="Shape"></path>
+                <path d="M128,16.795 L160,0.795 L192,16.795" id="Shape"></path>
+                <path d="M128,24.795 L160,40.795 L192,24.795" id="Shape"></path>
+                <rect id="top" fill="#BCEBDD" x="88" y="4.795" width="48" height="32"></rect>
+                <circle id="middle-outer" fill="#BCEBDD" cx="50" cy="116.795" r="24"></circle>
+                <circle id="Oval" cx="50" cy="116.795" r="8"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
