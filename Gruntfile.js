@@ -290,6 +290,7 @@ module.exports = function (grunt) {
               'flags/**/*',
               'favicon/**/*',
               'languages.xml',
+              'CNAME',
               '.htaccess',
             ]
           }, 
