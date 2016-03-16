@@ -337,10 +337,8 @@ footer.major {
   top: 50%;
   height: 60%;
   font-size: 28px;
-  -webkit-perspective: 1200px;
   perspective: 1200px;
   text-align: center;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -353,16 +351,13 @@ footer.major {
   height: 100%;
   opacity: 0.4;
   position: relative;
-  -webkit-transform: translateY(-25%) rotateX(35deg);
   transform: translateY(-25%) rotateX(35deg);
-  transition: -webkit-transform 0.5s, opacity 0.5s;
   transition: transform 0.5s, opacity 0.5s;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\0000376}}
 .Menu.is-open .Menu-list {
   opacity: 1;
-  -webkit-transform: rotateX(0deg);
   transform: rotateX(0deg);
 }
 
@@ -428,10 +423,8 @@ footer.major {
   .Menu nav {
     font-size: 14px;
     height: 100%;
-    -webkit-perspective: none;
     perspective: none;
     top: 0;
-    -webkit-transform: none;
     transform: none;
   }
 
@@ -443,18 +436,11 @@ footer.major {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003149}}
   .Menu-list {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0 auto;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     opacity: 1;
-    -webkit-transform: none;
     transform: none;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_menu\.scss}line{font-family:\00003157}}
@@ -777,7 +763,7 @@ header.special {
     font-size: 15px;
   }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 860px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_home-visits\.scss}line{font-family:\0000336}}
   .HomeVisits {
     height: 52px;
@@ -794,7 +780,7 @@ header.special {
     font-size: 16px;
     line-height: 52px;
     padding: 0;
-    width: 850px;
+    width: 860px;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\000031}}
@@ -817,11 +803,7 @@ header.special {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\0000317}}
 .Customers-grid {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 26px;
 }
@@ -866,8 +848,6 @@ header.special {
 @media screen and (min-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_customers\.scss}line{font-family:\0000359}}
   .Customers-grid {
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
     justify-content: space-between;
   }
 
@@ -964,12 +944,8 @@ header.special {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_job-types\.scss}line{font-family:\000038}}
 .JobTypes-grid {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 30px;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -1256,11 +1232,7 @@ header.special {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/andersen\/dev\/sites\/pp-mekanik\/dev\/sass\/modules\/_contact\.scss}line{font-family:\0000310}}
 .Contact-wrap {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 auto;
   text-align: center;
