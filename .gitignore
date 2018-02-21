@@ -4,5 +4,4 @@
 *.swp
 node_modules
 npm-debug.log*
-dist
-svg-defs.html
+dist/
