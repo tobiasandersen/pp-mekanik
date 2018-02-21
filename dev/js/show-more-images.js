@@ -3,11 +3,11 @@
   function createImageEl(fileName) {
     return $(
       '<div class="image-item">' +
-        '<section class="image-container">' + 
+        '<section class="image-container">' +
           '<a href="img/full/' + fileName + '.jpg" data-lightbox="bilder">' +
-            '<img src="img/thumbnails/' + fileName + '.jpg">' + 
-          '</a>' + 
-        '</section>' + 
+            '<img src="img/thumbnails/' + fileName + '.jpg">' +
+          '</a>' +
+        '</section>' +
       '</div>'
     );
   }
@@ -15,7 +15,7 @@
   $(window).on("load", function() {
     var rows = [];
 
-    for (var i = 5; i <= 20; i = (i + 2)) {
+    for (var i = 5; i <= 28; i = (i + 2)) {
       $row = $('<div class="row"></div>');
 
       for (var j = i; j <= (i + 1); j++) {
@@ -34,12 +34,12 @@
 
     var currentLanguage = $('body').attr('data-lang');
 
-    var hideText = currentLanguage === 'sv' 
-      ? 'Dölj bilder igen' 
+    var hideText = currentLanguage === 'sv'
+      ? 'Dölj bilder igen'
       : 'Hide images';
 
-    var showText = currentLanguage === 'sv' 
-      ? 'Visa fler bilder' 
+    var showText = currentLanguage === 'sv'
+      ? 'Visa fler bilder'
       : 'Show more images';
 
     if (additionalImages.hasClass('is-shown')) {
