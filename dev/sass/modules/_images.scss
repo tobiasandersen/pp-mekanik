@@ -13,6 +13,7 @@
 	clear: none;
 	margin-left: 0;
 	margin-bottom: 25px;
+	height: auto;
 	width: 100%;
 }
 
@@ -42,7 +43,7 @@
 
 	&.is-shown {
 		display: block;
-		opacity: 1; 
+		opacity: 1;
 		height: auto;
 	}
 }
