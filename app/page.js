@@ -1,4 +1,5 @@
 import { GoogleMapsEmbed } from "@next/third-parties/google"
+import Image from 'next/image'
 import { google } from "googleapis"
 import { Header } from "./header"
 import { Images } from "./images"
@@ -90,7 +91,9 @@ export async function Page({ lang }) {
               )}
             </p>
 
-            <img
+            <Image
+              width={471}
+              height={436}
               src="/img/hero-image.png"
               alt="Skål producerad på vår mekaniska verkstad"
             />

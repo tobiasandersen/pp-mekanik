@@ -1,9 +1,16 @@
 import Script from 'next/script'
+import { Lato } from 'next/font/google'
 import '../sass/style.scss'
+
+const lato = Lato({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['300', '400', '900']
+})
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html className={lato.className}>
       <head>
         <title>PP Mekanik AB | Din mekaniska verkstad i Lund</title>
         <meta httpEquiv='content-type' content='text/html; charset=utf-8' />
