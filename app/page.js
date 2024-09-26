@@ -52,7 +52,7 @@ export async function Page({ lang }) {
         width: file.imageMediaMetadata?.width,
         height: file.imageMediaMetadata.height,
       }))
-      .sort((a, b) => a.name.localeCompare(b.name))
+      .sort((a, b) => Number(a.name.replace(/\..*$/, '')) - Number(b.name.replace(/\..*$/, '')))
   } catch (err) {
     console.error(err)
   }
