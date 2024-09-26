@@ -92,6 +92,7 @@ export async function Page({ lang }) {
             </p>
 
             <Image
+              priority
               width={471}
               height={436}
               src="/img/hero-image.png"
