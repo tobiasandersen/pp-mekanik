@@ -54,7 +54,7 @@ const getImages = unstable_cache(
     return images
   },
   ['images'],
-  { revalidate: 30, tags: 'images' },
+  { revalidate: 10, tags: 'images' },
 )
 
 export async function Page({ lang }) {

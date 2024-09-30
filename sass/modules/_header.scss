@@ -41,20 +41,16 @@
   transition: all .3s ease;
   position: relative;
   outline: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  justify-content: center;
+  text-transform: none;
 
   span {
     margin-right: 8px;
   }
-}
-
-.change-language-button {
-  margin-left: 20px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  width: 68px;
-  justify-content: flex-end;
-  text-transform: none;
 }
 
 .flag-icon {
@@ -88,21 +84,12 @@
       background: white;
       box-shadow: 0 1px 4px 0 rgba(0,0,0,0.175);
       color: #333;
-
-      .change-language-button {
-        color: #333;
-      }
     }
-  }
-
-  .change-language-button {
-    margin-left: 5px;
-    top: 0;
   }
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 996px) {
   .change-language-button {
-    margin-left: 20px;
+    width: 68px;
   }
 }
