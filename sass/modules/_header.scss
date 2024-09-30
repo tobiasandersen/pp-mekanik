@@ -53,6 +53,7 @@
   }
 }
 
+
 .flag-icon {
   height: 12px;
   width: 18px;
@@ -91,5 +92,9 @@
 @media screen and (min-width: 996px) {
   .change-language-button {
     width: 68px;
+  }
+
+  .Header.is-scrolled .change-language-button {
+    color: #333;
   }
 }
