@@ -385,9 +385,7 @@ export async function Page({ lang }) {
             <li className='Contact-listHeading' id='email'>
               {se ? 'E-post' : 'Email'}
             </li>
-            <li>
-              <a href='mailto:pp.kontor@telia.com'>pp.kontor@telia.com</a>
-            </li>
+            <li>pp.kontor[at]telia.com</li>
           </ul>
 
           <ul className='Contact-list'>
