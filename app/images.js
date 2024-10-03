@@ -15,7 +15,7 @@ export function Images({ se, images }) {
   const [imageIndex, setImageIndex] = useState(null)
 
   return (
-    <section className='images container--box waypoint-section' id='images'>
+    <section className='images container--box' id='images'>
       <h2 id='selection-of-images'>
         {se ? 'Bilder i urval' : 'A selection of images'}
       </h2>
@@ -29,7 +29,7 @@ export function Images({ se, images }) {
               alt=''
               width={800}
               height={(height / width) * 800}
-              onPointerDown={() => {
+              onClick={() => {
                 setImageIndex(index)
               }}
             />
